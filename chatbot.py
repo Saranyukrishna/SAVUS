@@ -7,7 +7,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.tools import Tool
+from langchain.agents import Tool
 from langchain.agents import initialize_agent, AgentType
 from langchain_community.tools.tavily_search import TavilySearchResults
 
